@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+  <!--  By: Ângelo Augusto  -->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ângelo Augusto | Portfólio</title>
+  <meta name="description" content="Portfólio de Ângelo Augusto, estudante de Análise e Desenvolvimento de Sistemas.">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topo">
+    <a class="logo" href="#inicio">Ângelo Augusto</a>
+    <nav aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+      <button id="botao-tema" type="button" aria-label="Alternar entre tema claro e escuro">🌓</button>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio" class="hero">
+      <p class="hero__ola">Olá, eu sou</p>
+      <h1>Ângelo Augusto</h1>
+      <p class="hero__descricao">
+        Estudante de Análise e Desenvolvimento de Sistemas, aprendendo a construir coisas para a web.
+      </p>
+      <a class="botao" href="https://github.com/angeloaugustoppbarreto" target="_blank" rel="noopener">Ver projetos</a>
+    </section>
+    <section id="sobre" class="secao">
+      <h2>Sobre mim</h2>
+      <p>
+        Me chamo Ângelo Augusto, tenho 22 anos e sou estudante de Análise e Desenvolvimento
+        de Sistemas, atualemente estou desenvolvendo projetos de sites como este e agentes de IA
+        para whatsapp, para auxiliar na gestão de estoque e finanças de sua empresa. Tenho um
+        projeto acadêmico feito para auxiliar nos estudos chamado menttis. Dísponivel em meu github.
+      </p>
+    </section>
+    <section id="projetos" class="secao">
+      <h2>Projetos</h2>
+      <div class="grade-projetos">
+        <article class="card">
+          <h3>Este site</h3>
+          <p>Meu primeiro portfólio, feito do zero com HTML, CSS e JavaScript.</p>
+          <a href="#">Ver código</a>
+        </article>
+        <article class="card">
+          <h3>Projeto 2</h3>
+          <p>Dentro da faculdade trabalhei num projeto de um site de estudos
+             chamado menttis, este projeto baseado no sistema de recompensa e
+             numa pilha de pontuação onde pode ser jogado entre amigos com o
+             intenção de auxiliar nos estudos.</p>
+         <a href="#">Ver projeto</a>
+        </article>
+        <article class="card">
+          <h3>Projeto 3</h3>
+          <p>Atualmente ando desenvolvendo agentes de ia para whatsapp,
+             onde eles podem administrar pequenos negócios, projeto para
+             pequenos comercios onde ele pode administrar estoque, finanças,
+             lembretes, entrada e saída de produtos, onde todos eles ficam
+             armazenados num banco de dados que fica no ar 24h. </p>
+          <a href="#">Ver projeto</a>
+        </article>
+      </div>
+    </section>
+    <section id="contato" class="secao">
+      <h2>Contato</h2>
+      <ul class="lista-contato">
+        <!-- Para e-mail, o href precisa começar com "mailto:". Sem isso o navegador trata como um endereço de site -->
+        <li><a href="mailto:17242115@esuda.edu.br">email</a></li>
+        <li><a href="https://github.com/angeloaugustoppbarreto" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/angelo-augusto-pessoa-paes-barreto/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/gust0____/" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer class="rodape">
+    <p>© <span id="ano"></span> Ângelo Augusto</p>
+  </footer>
+</body>
+</html>
